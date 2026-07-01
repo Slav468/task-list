@@ -1,0 +1,28 @@
+.section-panel {
+	position: relative;
+	background: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0 16px 30px rgba(34, 36, 38, 0.08);
+	padding: 24px;
+}
+
+.section-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 18px;
+}
+
+.task-list {
+	display: grid;
+	gap: 16px;
+}
+
+.completed-list {
+	min-height: 90px;
+}
+
+.empty-state {
+	color: #6d6d80;
+	font-size: 0.98rem;
+}

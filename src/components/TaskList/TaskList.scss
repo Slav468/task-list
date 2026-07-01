@@ -1,0 +1,48 @@
+.section-panel {
+	position: relative;
+	background: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0 16px 30px rgba(34, 36, 38, 0.08);
+	padding: 24px;
+}
+
+.section-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 18px;
+}
+
+.sort-controls {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 18px;
+}
+
+.sort-button {
+	padding: 10px 16px;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	background: #f3f4ff;
+	color: #4b4d67;
+	cursor: pointer;
+	transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.sort-button:hover,
+.sort-button.active {
+	background: #7c5cff;
+	color: white;
+	border-color: #7c5cff;
+}
+
+.task-list {
+	display: grid;
+	gap: 16px;
+}
+
+.empty-state {
+	color: #6d6d80;
+	font-size: 0.98rem;
+}

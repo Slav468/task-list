@@ -1,0 +1,19 @@
+.close-button {
+	background: none;
+	border: none;
+	font-size: 1.75rem;
+	font-weight: 900;
+	line-height: 1;
+	color: #7c5cff;
+	cursor: pointer;
+	transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.close-button.open {
+	transform: rotate(45deg);
+	color: #5a41c3;
+}
+
+.close-button:hover {
+	color: #5a41c3;
+}

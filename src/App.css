@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	background-color: #f5f7fa;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+html,
+body,
+#root {
+	min-height: 100%;
+}
+
+body {
+	background-color: #f5f7fa;
+	color: #333;
+}
+
+body,
+button,
+input,
+select {
+	font: inherit;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.app {
+	width: min(100%, 940px);
+	padding: 32px 18px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.app {
+		padding: 24px 14px;
+	}
+}
